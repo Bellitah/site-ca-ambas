@@ -1,0 +1,70 @@
+body {
+	font-family: 'Bebas Neue', cursive;
+    font-family: 'Mulish', sans-serif;
+ }
+
+html {
+    background: #1f1f1f;
+}
+
+.caixa-alta {
+	text-align: center;
+    padding: 7px ;
+    margin: -7px -15px;
+    letter-spacing: .1rem;
+    background: #FF0000;
+    font-size: 22px;
+    font-family: 'Bebas Neue';
+}
+
+nav {
+ 	position: relative;
+ 	top: 50px;
+ 	right: 0;
+ 	font-family: 'Mulish';
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+ 
+nav a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+ 
+.caixa {
+    text-aling: center;
+    padding: 0 20px;
+    margin: 0;
+    letter-spacing: .1rem;
+}
+   
+.imagem {
+	margin: 50px 0 0 850px;
+	width: 30%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.nome {
+	font-size: 25px;
+	color: #FFFFFF;
+}
+
+.texto-principal {
+	margin: -450px 50px 0 0;
+	font-size: 60px;
+	color: #FFFFFF;
+	font-family: 'Bebas Neue';
+	text-align: top;
+}
